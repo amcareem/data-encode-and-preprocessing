@@ -48,7 +48,7 @@ binarized_data = pd.DataFrame(binarizer.transform(imputed_data), columns=header_
 scaler_standard = StandardScaler()
 standardized_data = pd.DataFrame(scaler_standard.fit_transform(imputed_data), columns=header_names)
 
-# Verify the scaled, normalized, binarized, and standardized data
+# Printing all the resultsssssssssssssssssssssssssssssssssssssssssssssss
 print("\nScaled Data:")
 print(scaled_data.head(5))
 print("\nNormalized Data (L1):")
